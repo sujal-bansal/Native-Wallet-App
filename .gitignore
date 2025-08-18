@@ -1,0 +1,55 @@
+# ---- Node.js backend ----
+backend/node_modules/
+backend/package-lock.json
+
+# Env files
+backend/.env
+backend/.env.local
+backend/.env.*.local
+
+# Logs
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/pnpm-debug.log*
+
+# Coverage
+backend/coverage/
+
+# Database (if using local DB files)
+backend/*.sqlite
+backend/*.db
+
+# ---- React Native mobile ----
+mobile/node_modules/
+mobile/package-lock.json
+
+# Expo / React Native
+mobile/.expo/
+mobile/.expo-shared/
+mobile/web-build/
+mobile/dist/
+mobile/build/
+mobile/ios/Pods/
+
+# Android
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/android/build/
+mobile/android/local.properties
+
+# iOS
+mobile/ios/build/
+mobile/ios/DerivedData/
+mobile/ios/Pods/
+mobile/ios/*.xcworkspace
+
+# ---- General ----
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
